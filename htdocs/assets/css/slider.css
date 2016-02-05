@@ -1,0 +1,111 @@
+.news-items .section {
+  width: 100%;
+  text-align: center; }
+  .news-items .section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: .5em; }
+
+.compact-slideshow-active .contents, .compact-slideshow-active .controlbar {
+  /* controlbar is only visible when active */
+  padding: 0;
+  overflow: hidden; }
+
+.compact-slideshow-active .window {
+  clear: both;
+  overflow: hidden;
+  padding: 0;
+  margin: 0; }
+
+.compact-slideshow-active .controlbar {
+  margin: 1em 0 1em 0; }
+  .compact-slideshow-active .controlbar a span img.for-css-replacement {
+    width: 2em !important;
+    height: 2em !important;
+    border: none !important; }
+  .compact-slideshow-active .controlbar a span.button-symbol {
+    speak: none;
+    /* Hide ascii symbols from AT */
+    padding: 0;
+    display: block;
+    width: 2em;
+    height: 2em;
+    overflow: hidden;
+    text-align: center; }
+  .compact-slideshow-active .controlbar span.button-title {
+    position: absolute;
+    left: -99999px; }
+  .compact-slideshow-active .controlbar .actions a.next span.button-symbol {
+    background-position: -255px -85px; }
+  .compact-slideshow-active .controlbar .actions a.toggle-animation span.button-symbol {
+    background-position: -170px -85px; }
+  .compact-slideshow-active .controlbar .actions a.next:hover span.button-symbol {
+    background-position: -255px top; }
+  .compact-slideshow-active .controlbar .actions a.toggle-animation:hover span.button-symbol {
+    background-position: -170px top; }
+  .compact-slideshow-active .controlbar ul, .compact-slideshow-active .controlbar li {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0; }
+  .compact-slideshow-active .controlbar ul {
+    display: block; }
+  .compact-slideshow-active .controlbar a {
+    outline: none;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    float: left;
+    padding: 0; }
+    .compact-slideshow-active .controlbar a:link, .compact-slideshow-active .controlbar a:active, .compact-slideshow-active .controlbar a:visited {
+      outline: none;
+      text-decoration: none;
+      color: #ffffff;
+      display: block;
+      float: left;
+      padding: 0; }
+    .compact-slideshow-active .controlbar a span {
+      padding: .2em .7em;
+      display: block; }
+    .compact-slideshow-active .controlbar a:hover span, .compact-slideshow-active .controlbar a:active span, .compact-slideshow-active .controlbar a.keyboard-focus span {
+      color: #ffffff;
+      text-decoration: underline;
+      cursor: pointer; }
+
+.compact-slideshow-active .actions {
+  float: right;
+  width: 6em; }
+
+.compact-slideshow-active .panels {
+  float: left; }
+
+.compact-slideshow-active .panels a span.button-symbol, .compact-slideshow-active .panels a:link span.button-symbol, .compact-slideshow-active .panels a:visited span.button-symbol {
+  background: transparent url(https://static.qgov.net.au/assets/v2/images/skin/icon-slideshow-panels-control.png) center 7px no-repeat;
+  overflow: hidden; }
+
+.compact-slideshow-active .panels a.current span.button-symbol, .compact-slideshow-active .panels a.current:link span.button-symbol, .compact-slideshow-active .panels a.current:active span.button-symbol, .compact-slideshow-active .panels a.current:visited span.button-symbol {
+  background-image: url(https://static.qgov.net.au/assets/v2/images/skin/icon-slideshow-panels-control-current.png); }
+
+.compact-slideshow-active .panels a:hover span.button-symbol, .compact-slideshow-active .panels a.keyboard-focus span.button-symbol {
+  background-image: url(https://static.qgov.net.au/assets/v2/images/skin/icon-slideshow-panels-control-hover.png); }
+
+.compact-slideshow-active .panels a.current span.button-symbol, .compact-slideshow-active .panels a.current:link span.button-symbol, .compact-slideshow-active .panels a.current:active span.button-symbol, .compact-slideshow-active .panels a.current:visited span.button-symbol, .compact-slideshow-active .panels a.current:hover span.button-symbol {
+  color: #194477;
+  cursor: default;
+  text-decoration: none; }
+
+.compact-slideshow-active .actions a span.button-symbol {
+  background-image: url(https://static.qgov.net.au/assets/v2/images/skin/sprite-slideshow-controls.png);
+  background-position: left -85px;
+  background-repeat: no-repeat; }
+
+.compact-slideshow-active .actions a:hover span.button-symbol {
+  background-position: left top; }
+
+.slideshow.animation-running .controlbar .actions a.toggle-animation span.button-symbol {
+  background-position: -85px -85px; }
+
+.slideshow.animation-running .controlbar .actions a.toggle-animation:hover span.button-symbol {
+  background-position: -85px top; }
+
+/*# sourceMappingURL=slider.css.map */
