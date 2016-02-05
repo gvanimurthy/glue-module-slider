@@ -1,4 +1,3 @@
-//var jQuery = $ = require('jquery');
 var qg = qg || {};
 /**
  * "Got style?" Some scripts are going to rely on the browser currently having CSS available and enabled.

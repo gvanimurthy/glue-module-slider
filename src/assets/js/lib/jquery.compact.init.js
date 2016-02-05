@@ -1,5 +1,4 @@
-﻿//var jQuery = $ = require('jquery');
-var ResizeEvents;
+﻿var ResizeEvents;
 /**
  * "Compact" base plugin (Unobtrusive DHTML clickey-hidey content sections)
  * jquery.compact.init.js

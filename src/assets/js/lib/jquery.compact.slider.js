@@ -1,4 +1,3 @@
-//var jQuery = $ = require('jquery');
 /**
  * "The Slider" (compact sliding panels)
  * jquery.compact.slider.js

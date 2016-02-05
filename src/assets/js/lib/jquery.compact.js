@@ -1,5 +1,4 @@
-﻿//var jQuery = require('jquery');
-var qg = qg || {};
+﻿var qg = qg || {};
 /**
  * "Compact" base plugin (Unobtrusive DHTML clickey-hidey content sections)
  * jquery.compact.js

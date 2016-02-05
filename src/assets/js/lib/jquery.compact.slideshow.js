@@ -1,4 +1,3 @@
-//var jQuery = $ = require('jquery');
 /**
  * "The Slideshow" (compact panels with slideshow)
  * jquery.compact.slideshow.js

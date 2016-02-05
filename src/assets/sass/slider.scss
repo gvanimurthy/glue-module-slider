@@ -1,0 +1,150 @@
+.news-items {
+  .section {
+    width: 100%;
+    text-align: center;
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: .5em;
+    }
+  }
+}
+
+.compact-slideshow-active {
+  .contents, .controlbar {
+    /* controlbar is only visible when active */
+    padding: 0;
+    overflow: hidden;
+  }
+  .window {
+    clear: both;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  .controlbar {
+    margin: 1em 0 1em 0;
+    a {
+      span {
+        img.for-css-replacement {
+          width: 2em !important;
+          height: 2em !important;
+          border: none !important;
+        }
+        &.button-symbol {
+          speak: none;
+          /* Hide ascii symbols from AT */
+          padding: 0;
+          display: block;
+          width: 2em;
+          height: 2em;
+          overflow: hidden;
+          text-align: center;
+        }
+      }
+    }
+    span.button-title {
+      position: absolute;
+      left: -99999px;
+    }
+    .actions a {
+      &.next span.button-symbol {
+        background-position: -255px -85px;
+      }
+      &.toggle-animation span.button-symbol {
+        background-position: -170px -85px;
+      }
+      &.next:hover span.button-symbol {
+        background-position: -255px top;
+      }
+      &.toggle-animation:hover span.button-symbol {
+        background-position: -170px top;
+      }
+    }
+    ul, li {
+      list-style-type: none;
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+    ul {
+      display: block;
+    }
+    a {
+      outline: none;
+      text-decoration: none;
+      color: #ffffff;
+      display: block;
+      float: left;
+      padding: 0;
+      &:link, &:active, &:visited {
+        outline: none;
+        text-decoration: none;
+        color: #ffffff;
+        display: block;
+        float: left;
+        padding: 0;
+      }
+      span {
+        padding: .2em .7em;
+        display: block;
+      }
+      &:hover span, &:active span, &.keyboard-focus span {
+        color: #ffffff;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+  .actions {
+    float: right;
+    width: 6em;
+  }
+  .panels {
+    float: left;
+  }
+  .panels a {
+    span.button-symbol, &:link span.button-symbol, &:visited span.button-symbol {
+      background: transparent url(https://static.qgov.net.au/assets/v2/images/skin/icon-slideshow-panels-control.png) center 7px no-repeat;
+      overflow: hidden;
+    }
+    &.current {
+      span.button-symbol, &:link span.button-symbol, &:active span.button-symbol, &:visited span.button-symbol {
+        background-image: url(https://static.qgov.net.au/assets/v2/images/skin/icon-slideshow-panels-control-current.png);
+      }
+    }
+    &:hover span.button-symbol, &.keyboard-focus span.button-symbol {
+      background-image: url(https://static.qgov.net.au/assets/v2/images/skin/icon-slideshow-panels-control-hover.png);
+    }
+    &.current {
+      span.button-symbol, &:link span.button-symbol, &:active span.button-symbol, &:visited span.button-symbol, &:hover span.button-symbol {
+        color: #194477;
+        cursor: default;
+        text-decoration: none;
+      }
+    }
+  }
+  .controlbar {
+
+  }
+  .actions a span.button-symbol {
+    background-image: url(https://static.qgov.net.au/assets/v2/images/skin/sprite-slideshow-controls.png);
+    background-position: left -85px;
+    background-repeat: no-repeat;
+  }
+  .actions a:hover span.button-symbol {
+    background-position: left top;
+  }
+  .controlbar
+  .controlbar {
+
+  }
+}
+
+.slideshow.animation-running .controlbar .actions a.toggle-animation span.button-symbol {
+  background-position: -85px -85px;
+}
+
+.slideshow.animation-running .controlbar .actions a.toggle-animation:hover span.button-symbol {
+  background-position: -85px top;
+}

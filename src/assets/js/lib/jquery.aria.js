@@ -1,4 +1,3 @@
-//var jQuery = $ = require('jquery');
 /***
  Copyright 2007 Chris Hoffman
 
